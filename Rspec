@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<rspec xmlns="http://www.geni.net/resources/rspec/3" type="request" generated_by="jFed RSpec Editor" generated="2017-01-06T23:23:13.869-05:00" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:jfedBonfire="http://jfed.iminds.be/rspec/ext/jfed-bonfire/1" xmlns:delay="http://www.protogeni.net/resources/rspec/ext/delay/1" xmlns:jfed-command="http://jfed.iminds.be/rspec/ext/jfed-command/1" xmlns:client="http://www.protogeni.net/resources/rspec/ext/client/1" xmlns:jfed-ssh-keys="http://jfed.iminds.be/rspec/ext/jfed-ssh-keys/1" xmlns:jfed="http://jfed.iminds.be/rspec/ext/jfed/1" xmlns:sharedvlan="http://www.protogeni.net/resources/rspec/ext/shared-vlan/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3 http://www.geni.net/resources/rspec/3/request.xsd ">
+  <node client_id="Crypto01" exclusive="false" component_manager_id="urn:publicid:IDN+geni.uchicago.edu+authority+cm">
+    <sliver_type name="emulab-openvz">
+      <disk_image name="urn:publicid:IDN+geni.uchicago.edu+image+emulab-ops:UBUNTU14-64-STD"/>
+    </sliver_type>
+    <location xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" x="90.0" y="88.5"/>
+	<services xmlns="http://www.geni.net/resources/rspec/3">
+    <execute xmlns="http://www.geni.net/resources/rspec/3" command="sudo apt-get update sudo apt-get install bless"/>
+	</services>
+  </node>
+</rspec>
