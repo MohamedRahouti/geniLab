@@ -1,0 +1,4 @@
+sudo apt-get update
+
+# Install the babel routing daemon, mtr fancy traceroute, and nodejs (for the babelweb node)
+sudo apt-get -y install bless vim
